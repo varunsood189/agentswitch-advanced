@@ -15,5 +15,11 @@ email, scheduling, projects, drive
 - 20 Dec 2026: integration run of all eight seats
 - 31 Dec 2026: final
 
+## Agent
+[`agent/`](agent/) is the seat's agent. New work goes there.
+
+## Test suite
+The 12-task suite for 30 Nov is in [`agent/suite/`](agent/suite/). Start with the [test suite guide](agent/suite/TEST_SUITE_GUIDE.md). The course run starts from [`agentswitch-harness.toml`](agentswitch-harness.toml).
+
 ## Working rules
 See the top-level README. Put your agent code, tests and notes in this folder; open a pull request for every change.
